@@ -84,7 +84,7 @@ if (isset($_GET['act']) && $_GET['act'] =='hapus') {
 <form class="text-left" action="" method="POST">
 	<input type="hidden" name="userid" value="<?php if (isset($_GET['act']) && $_GET['act'] =='edit') { echo $id; } ?>">
 	<fieldset class="border p-2">
-		<legend  class="w-auto">TAMBAH DATA</legend>
+		<legend  class="w-auto">SIGN UP</legend>
 	<div class="form-group">
     <label>Email</label>
     <input type="text" value="<?php if (isset($_GET['act']) && $_GET['act'] =='edit') { echo $email; } ?>" name="email" class="form-control col-6" placeholder="Email Address" required>
